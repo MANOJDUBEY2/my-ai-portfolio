@@ -190,7 +190,7 @@ export default function ChatWidget() {
                   </h4>
                   <p className="text-[10px] text-gray-500 tracking-wider flex items-center gap-1">
                     <Sparkles className="w-2.5 h-2.5 text-saffron" />
-                    POWERED BY GEMINI 3.5
+                    POWERED BY GEMINI 1.5
                   </p>
                 </div>
               </div>

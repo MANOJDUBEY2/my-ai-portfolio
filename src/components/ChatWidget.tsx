@@ -103,7 +103,7 @@ export default function ChatWidget() {
       const errorMessage: Message = {
         id: `msg-${Date.now()}-err`,
         role: "model",
-        text: "Note: GitHub Pages does not support Node.js backends, so the AI Assistant is offline here. To see the AI in action, please run this project locally or view it on a platform like Vercel. Contact Manoj: manojdubey27oct2007@gmail.com",
+        text: "I'm currently having trouble connecting to the AI service. Please ensure the GEMINI_API_KEY is correctly configured in the environment settings. Contact Manoj: manojdubey27oct2007@gmail.com",
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       };
       setMessages(prev => [...prev, errorMessage]);
